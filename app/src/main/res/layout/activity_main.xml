@@ -17,19 +17,21 @@
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="168dp"
-            android:src="@drawable/test123"
+            android:src="@drawable/IMG_540632"
             android:text="Button" />
 
-        <Button
+        <ImageButton
             android:id="@+id/button2"
             android:layout_width="match_parent"
             android:layout_height="168dp"
+            android:src="@drawable/test456"
             android:text="Button" />
 
-        <Button
+        <ImageButton
             android:id="@+id/button3"
             android:layout_width="match_parent"
             android:layout_height="168dp"
+            android:src="@drawable/test789"
             android:text="Button" />
 
     </LinearLayout>
