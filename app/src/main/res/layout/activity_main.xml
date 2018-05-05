@@ -6,6 +6,17 @@
     android:layout_height="match_parent"
     tools:context="com.example.user.myapplication.MainActivity">
 
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/umbrella" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -14,26 +25,23 @@
         tools:layout_editor_absoluteY="0dp">
 
         <ImageButton
-            android:id="@+id/button"
+            android:id="@+id/weatherbtn"
             android:layout_width="match_parent"
-            android:layout_height="171dp"
-            android:src="@drawable/IMG_540632"
-            android:text="Button" />
+            android:layout_height="150dp" />
 
         <ImageButton
-            android:id="@+id/button2"
-
+            android:id="@+id/typhoonbtn"
             android:layout_width="match_parent"
-            android:layout_height="171dp"
-            android:src="@drawable/test456"
-            android:text="Button" />
+            android:layout_height="150dp" />
 
         <ImageButton
-            android:id="@+id/button3"
+            android:id="@+id/earthquakebtn"
             android:layout_width="match_parent"
-            android:layout_height="171dp"
-            android:src="@drawable/test789"
-            android:text="Button" />
+            android:layout_height="wrap_content"
+            android:padding="40dp"
+            android:text="Earthquake" />
 
     </LinearLayout>
+</RelativeLayout>
+
 </android.support.constraint.ConstraintLayout>
