@@ -16,6 +16,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".WeekWeather"
+            android:label="@string/title_activity_week_weather"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TyphoonWarnings"
+            android:label="@string/title_activity_typhoon_warnings"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EarthquakeWarnings"
+            android:label="@string/title_activity_earthquake_warnings"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
