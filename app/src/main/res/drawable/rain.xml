@@ -13,16 +13,5 @@
     <item android:drawable="@drawable/frame10" android:duration="100" />
     <item android:drawable="@drawable/frame11" android:duration="100" />
     <item android:drawable="@drawable/frame12" android:duration="100" />
-    <item android:drawable="@drawable/frame13" android:duration="100" />
-    <item android:drawable="@drawable/frame14" android:duration="100" />
-    <item android:drawable="@drawable/frame15" android:duration="100" />
-    <item android:drawable="@drawable/frame16" android:duration="100" />
-    <item android:drawable="@drawable/frame17" android:duration="100" />
-    <item android:drawable="@drawable/frame18" android:duration="100" />
-    <item android:drawable="@drawable/frame19" android:duration="100" />
-    <item android:drawable="@drawable/frame20" android:duration="100" />
-    <item android:drawable="@drawable/frame21" android:duration="100" />
-    <item android:drawable="@drawable/frame22" android:duration="100" />
-    <item android:drawable="@drawable/frame23" android:duration="100" />
-    <item android:drawable="@drawable/frame24" android:duration="100" />
+
 </animation-list>

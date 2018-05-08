@@ -13,4 +13,5 @@
     <item android:drawable="@drawable/ty10" android:duration="100"/>
     <item android:drawable="@drawable/ty11" android:duration="100"/>
     <item android:drawable="@drawable/ty12" android:duration="100"/>
+
 </animation-list>

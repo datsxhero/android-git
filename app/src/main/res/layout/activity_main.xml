@@ -27,19 +27,26 @@
         <ImageButton
             android:id="@+id/weatherbtn"
             android:layout_width="match_parent"
-            android:layout_height="150dp" />
+            android:layout_height="135dp"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:onClick="WeekWeather" />
 
         <ImageButton
             android:id="@+id/typhoonbtn"
             android:layout_width="match_parent"
-            android:layout_height="150dp" />
+            android:layout_height="135dp"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:onClick="TyphoonWarnings" />
 
         <ImageButton
             android:id="@+id/earthquakebtn"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="40dp"
-            android:text="Earthquake" />
+            android:layout_height="135dp"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:onClick="EarthquakeWarnings" />
 
     </LinearLayout>
 </RelativeLayout>
