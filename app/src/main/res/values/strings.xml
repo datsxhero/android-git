@@ -3,4 +3,5 @@
     <string name="title_activity_week_weather">WeekWeather</string>
     <string name="title_activity_typhoon_warnings">TyphoonWarnings</string>
     <string name="title_activity_earthquake_warnings">EarthquakeWarnings</string>
+    <string name="title_activity_test">test</string>
 </resources>
